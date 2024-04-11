@@ -1,0 +1,9 @@
+article:first-child {
+background-color: rgb(148, 148, 64);
+padding: 20px;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 10px;
+flex: 1;
+border: 2px solid navy;
+}

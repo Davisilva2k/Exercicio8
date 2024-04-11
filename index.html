@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exer8</title>
+    <style>
+        header {
+            background-color: blue;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(143, 63, 63);
+            color: white;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <header>Cabeçalho da Página</header>
+    <main class="flex-container">
+        <article>Conteudo do artigo</article>
+        <article
+            style="display: grid;grid-template-columns: repeat(2, 1fr);gap: 10px;padding: 20px;background-color: brown;">
+            <div style="background: rgb(255, 0, 0);padding: 10px;">Bloco 1</div>
+            <div style="background: rgb(255, 0, 0);padding: 10px;">Bloco 2</div>
+            <div style="background: rgb(255, 0, 0);padding: 10px;">Bloco 3</div>
+            <div style="background: rgb(255, 0, 0);padding: 10px;">Bloco 4</div>
+        </article>
+    </main>
+    <footer>Rodapé da Página</footer>
+</body>
+
+</html>
